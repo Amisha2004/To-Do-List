@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logincontainer_header {
+    background-color: #030f38;
+    height: 160px;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+/***********LOGIN PAGE CSS CODE***************************/
+.fulllogin_container{
+    margin-top: -6%;
+    background-image: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
+    padding-bottom: 20%;
+    padding-top: 5%;
+}
+.fullsignUp_container{
+    background-image: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
+    margin-top: -6%;
+    padding-bottom: 20%;
+    padding-top: 5%;
+}
+.fullforgot_container{
+    background-image: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
+    margin-top: -6%;
+    padding-top: 5%;
+    padding-bottom: 20%;
+
+}
+.login_container{
+    width: 40%;
+    align-items: center;
+    height: fit-content;
+    margin: 5%  0px 0px 30%;
+    border: 3px solid #030f38;
+    border-radius: 40px;
+    box-shadow: 4px 8px 16px #030f38;
+    animation: slide-in 1s ease-in-out;
+ }
+ @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+ .signup_container{
+    width: 40%;
+    align-items: center;
+    height: fit-content;
+    margin: 5%  0px 0px 30%;
+    border-radius: 40px;
+    border: 3px solid #030f38;
+    box-shadow: 4px 8px 16px #030f38;
+    animation: slide-in 1s ease-in-out;
+ }
+ .forgot_container{
+    width: 40%;
+    align-items: center;
+    height: fit-content;
+    margin: 5%  0px 0px 30%;
+    border: 3px solid #030f38;
+    border-radius: 40px;
+    box-shadow: 4px 8px 16px #030f38;
+    animation: slide-in 1s ease-in-out;
+ }
+ .headline_login{
+    text-align: center;
+    font-size:  200%;
+    color: #030f38;
+    padding-top: 3%;
+ } 
+ .headline_login:hover{
+    font-weight: bold;
+ } 
+ .column_login{
+    float: left; 
+     width: 50%; 
+     height: 10%;
+     color: #f1f1f1;
+    background-color: #030f38;
+    font-weight: bold; 
+    font-size: 20px;
+     padding: 2.5%;
+    cursor: pointer;
+    text-align: center;
+}
+.row_login:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: #f1f1f1;
+}
+
+.containerlogin{
+    color: #030f38;
+    font-weight: bold;
+    padding: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+.containersignUp{
+    color: #030f38;
+    padding: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+.containerforgot{
+    color: #030f38;
+    padding: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+.containerlogin .form-group input:focus, .containerlogin .form-group button:focus {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 20px;
+}
+.containersignUp .form-group input:focus, .containersignUp .form-group button:focus {
+    background-color: #ffffff;
+    color: #000;
+}
+.containerforgot .form-group input:focus, .containerforgot .form-group button:focus {
+    background-color: #ffffff;
+    color: #000;
+}
+.containerlogin .form-group button:hover{
+    background-color: #fff; 
+    color: #030f38;
+}
+.containersignUp .form-group button:hover{
+    background-color: #fff; 
+    color: #030f38;
+}
+.containerforgot .form-group button:hover{
+    background-color: #fff; 
+    color: #030f38;
+}
+.signUp {
+    padding-left: 55%;
+}
+.signUp a{
+    color: #030f38;
+}
+.smallcontainerlogin {
+    padding: 16px;
+    color: #030f38;
+}
+.smallcontainerfooter { 
+     /* padding: 16px;  */
+     color: #030f38;
+    padding-left: 150px;
+}
+.smallcontainerfooter .textnew{
+    padding-left: 50px;
+}
+span.psw {
+    float: right;
+    padding-top: 12px;
+}
+span.psw a{
+     color: #030f38;
+}
+/*************************************************************/
+/*******************SIGNUP CSS CODE***************************/
+.column2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    color: #f1f1f1;
+    text-align: center;
+    /* border: 1px solid #f1f1f1; */
+    height: 8%;
+    background-color: #030f38;
+    font-weight: bold;
+    font-family: Kodchasan;
+}
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: #f1f1f1;
+}
+span.psw2 {
+    float: right;
+    padding-top: 12px;
+}
+span.psw2 a{
+     color: #030f38;
+}
+
+/*************************************************************************/
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #030f38;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 #030f38;
+}
+.labelUsername{
+    color: #030f38;
+}
+.lgbtn{
+    background-color: #030f38;
+    color: Wheat;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: medium;
+   border-radius: 150px;
+}
+.lgbtn:hover {
+    opacity: 0.8;
+}
+.cancelbtn button{
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 150px;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #da1002;
+}
+.cancelbtn button:hover {
+    opacity: 0.8;
+}
+/***********************************************************/
+/***********************FORGOT PASSWORD***********************************/
+.information-text{
+    text-align: center;
+}
+.textemail{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+ footer .map {
+    padding-top: 2%;
+}
+
+footer h4 {
+    padding-bottom: 3%;
+    font-weight: bold;
+}
+
+footer p {
+    color: white;
+    font-family: 'Kodchasan';
+    padding-bottom: 2%;
+}
+.loginfooter{
+    background-color: black;
+    background-size: cover;
+    margin: -1%;
+    /* height: 10%; */
+  }
+ /*****************************************************************/
+/*********************************************************************/
+/* For mobile devices */
+@media only screen and (max-width: 800px ) {
+
+    .containerMain1 {
+    width: 90%;
+    margin: 5%;
+    }
+
+    .container1 {
+        font-size: 14px;
+    }
+    .containerMain2{
+        width: 90%;
+        margin: 0 0 0 5%;  
+    }
+    .container2 {
+        font-size: 14px;
+    }
+    .containerMain3{
+        width: 90%;
+        margin: 0 0 0 5%;
+    }
+    .container3 {
+        font-size: 14px;
+    }
+    /**************************************/
+    .headline{
+        font-size: 10px;
+        text-align: center;
+     }
+     .columnb {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 50%; 
+      }
+}
+@media only screen and (max-width: 400px ) {
+    .containerMain1 {
+        width: 90%;
+        margin: 0 0 0 5% ;
+        }
+    
+        .container1 {
+            font-size: 10px;
+        }
+        .column1{
+            font-size: 12px;
+        }
+        .containerMain2{
+            width: 90%;
+            margin: 0 0 0 5%;  
+        }
+        .container2 {
+            font-size: 10px;
+        }
+        .column2{
+            font-size: 12px;
+        }
+        .containerMain3{
+            width: 90%;
+            margin: 0 0 0 5%;
+        }
+        .container3 {
+            font-size: 10px;
+        }
+        .column3{
+            font-size: 12px;
+        }
+        button {
+            padding: 6px 10px;
+            font-size: small;
+        }
+        .cancelbtn {
+            padding: 5px 12px;
+        }
+        /*************************/
+        .headline{
+            font-size: 8px;
+            text-align: center;
+         }
+         .columnb {
+            width: 100%;
+            align-items: center;
+            align-content: center;
+            height: 50%; 
+          }
+         /*********************/
+        
+    }
