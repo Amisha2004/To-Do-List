@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jahid Khan">
+    <link rel="stylesheet" href="/css/game.css">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
+    <title>Game</title>
+</head>
+
+
+<body>
+    <%- include("header") %>
+    <div class="game_container">
+         <h1>" Done with your to-do list? Now it's time to ask for a little 
+            'me' time and challenge yourself with a game that answers to no 
+            one but you - play and conquer, one question at a time! "</h1>
+    </div>
+    <form action="/game" method="post">
+    <div class="gamemain_container">
+        <div class="imagetictoe">
+            <img src="/images/tictactoe.jpeg" alt="Left Image" style="width: 200px; height: 200px; border-radius: 30px;">
+            <button class="buttongame" name="gameplay" value="chess">PLAY</button>
+        </div>
+        <div class="imagechess">
+            <img src="/images/chesss.jpg" alt="Right Image" style="width: 200px; height: 200px; border-radius: 30px;">
+            <button class="buttongame" name="gameplay" value="toe">PLAY</button>
+        </div>
+    </div>
+</form>
+<%- include("footer") %>
+</body>
+</html>

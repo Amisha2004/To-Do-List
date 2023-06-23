@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width , initial-scale = 1.0 ">
+        <title>Login</title>
+        <link rel="icon" href="https://i.postimg.cc/br1H7MKF/favicon-2.png"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kodchasan:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/login.css">
+    
+        <link rel="stylesheet" href="CSS/header.css"></link>
+        <link rel="stylesheet" href="CSS/footer.css"></link>
+    </head>
+    <body>
+        <div class="logincontainer_header">
+            <%- include("header") -%>
+        </div>
+        <div class="fullforgot_container">
+            <div class="forgot_container">
+            <form action="/forgot" method="post">
+            <div class="containerforgot">
+            <h1 style="color: #030f38; text-align: center;">Forgot Password</h1>
+            <h4 class="information-text">Enter your registered email to reset your password.</h4>
+            <div class="form-group">
+                <input type="email" name="user_email" id="user_email" placeholder="Enter Email Address" style="font-size: 12px;">
+                <p class="textemail"><label for="username">Email</label></p>
+                <button class="lgbtn" onclick="showSpinner()">Reset Password</button>
+            </div>
+            <div class="smallcontainerfooter">
+                <h4 class="textnew">New here? <a href="/signUp" style="color: #030f38;">Sign Up</a></h4>
+                <h4>Already have an account? <a href="/login" style="color: #030f38;">Login</a></h4>
+            </div>
+            </div>
+            </form>
+        </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <script src="JS/header.js"></script>
+          </body>
+          <div class="loginfooter">
+          <%- include("footer") -%> 
+      </div>
+      </html>
+      

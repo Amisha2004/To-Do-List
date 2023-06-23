@@ -1,0 +1,28 @@
+ <form action="/header" method="post">
+  <header>
+    <nav>
+      <div class="logo">Taskverse</div>
+      <ul class="nav-links">
+        <li><button class="header_btn" name="homeInput" value="1">Home</button></li>
+        <li><button class="header_btn" name="homeInput" value="2">Tasks</button></li>
+        <li><button class="header_btn" name="homeInput" value="3">Notes</button></li>
+        <li><button class="header_btn" name="homeInput" value="4">Games</button></li>
+        <!-- <li><button class="header_btn" name="homeInput" value="5">Login/SignUp</button></li> -->
+        <li>
+          <% if (email) { %>
+            <li class="user-icon">
+              <div class="user-info">
+            
+                <button class="header_btn" name="homeInput" value="6">Logout</a>
+              </div>
+            </li>
+    
+          <% } else { %>
+            <button class="header_btn" name="homeInput" value="5">Login/SignUp</button>
+          <% } %>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+</form>
