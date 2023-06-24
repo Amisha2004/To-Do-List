@@ -4,7 +4,57 @@ body {
   box-sizing: border-box;
   background-image: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
 }
-
+.about_text1 {
+  background-color: #030f38;
+  color: #ff9a9e;
+  margin-left: 100px;
+  border: 2px solid #f2f2f2;
+  margin-top: 90px;
+  margin-right: 100px;
+  border-radius: 30px;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.about_text2{
+  background-color: #030f38;
+  color: #ff9a9e;
+  border: 2px solid #f2f2f2;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.about_text3 {
+  background-color: #030f38;
+  color: #ff9a9e;
+  border: 2px solid #f2f2f2;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.about_text4 {
+  background-color: #030f38;
+  color: #ff9a9e;
+  border: 2px solid #f2f2f2;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.about_text5 {
+  background-color: #030f38;
+  color: #ff9a9e;
+  border: 2px solid #f2f2f2;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+   font-size: 20px;
+}
 .home-container {
   text-align: center;
   height: 100%;
@@ -189,3 +239,4 @@ body {
       margin-bottom: 10px;
   }
 }
+
