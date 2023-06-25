@@ -6,4 +6,5 @@ Our feature-rich website offers a wide range of functionalities designed to enha
    2. npm i express
    3. npm i body-parser
    4. npm i ejs
-   5. npm i express-session
+   5. npm i mongoose
+   6. npm i express-session
