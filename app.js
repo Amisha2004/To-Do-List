@@ -60,20 +60,10 @@ async function main(){
      item.save();
      res.redirect("/list");
      }
-     else{
-        List.findOne({name: listName}).then(function(Foundlist){
-            Foundlist.items.push(item);
-            Foundlist.save();
-            res.redirect("/list"+ listName);
-        })
-        .catch(function(err){
-         console.log(err);
-     });
-
-     }
  });
  app.post("/delete",async(req,res) => {
         const checkedItem= req.body.checkbox;
+        // console.log(checkedItem);
         const listName= req.body.ListName;
         if(listName=="Today"){
             try {
